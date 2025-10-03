@@ -47,3 +47,40 @@ body {
   border-radius: 50%;
 }
 
+input,textarea{
+  font-family: "Nunito", sans-serif;
+}
+
+.createpost{
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: wheat;
+  backdrop-filter: blur(5px);
+  background-color:  rgb(17, 145, 102);
+  overflow: hidden;
+
+}
+
+input,textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: wheat;
+  border: 0px transparent;
+  border-radius: 5px;
+  color:  rgb(17, 145, 102);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+}
